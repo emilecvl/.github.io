@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const pluginList = document.getElementById('plugin-list');
-    
+
     const plugins = [
         { name: 'Plugin A', progress: '75%' },
         { name: 'Plugin B', progress: '50%' },
