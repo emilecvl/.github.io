@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const pluginList = document.getElementById('plugin-list');
 
     const plugins = [
-        { name: 'Plugin A', progress: '75%', description: 'Description for Plugin A' },
-        { name: 'Plugin B', progress: '50%', description: 'Description for Plugin B' },
-        { name: 'Plugin C', progress: '90%', description: 'Description for Plugin C' },
+        { name: '1', progress: '75%', description: 'Description' },
+        { name: '2', progress: '50%', description: 'Description' },
+        { name: '3', progress: '90%', description: 'Description' },
     ];
 
     plugins.forEach(plugin => {
         const pluginDiv = document.createElement('div');
-        pluginDiv.className = 'plugin';
+        pluginDiv.className = 'Nom';
 
         const pluginName = document.createElement('h3');
         pluginName.textContent = plugin.name;
